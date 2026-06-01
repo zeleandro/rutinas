@@ -2,10 +2,14 @@
 
 Rutinas de gym en Markdown, para abrir desde el celular en el gym.
 
-## Días
+## Semanas
 
-- [Push (Empuje)](push.md) — pecho, hombro, tríceps
-- [Pull (Tirón)](pull.md) — espalda, bíceps
-- [Piernas](piernas.md) — cuádriceps, femoral, glúteo, gemelo
+- [Semana 1](semana-1/README.md) — split PPL de 6 días (lun–sáb)
 
-> Editá los `.md` para ajustar ejercicios, series y reps a tu rutina real.
+## 💡 Regla del mes
+
+**RIR 1-2:** terminá cada serie sintiendo que podrías hacer como máximo 1 o 2 repeticiones más.
+
+---
+
+> Para agregar una semana nueva: copiá la carpeta `semana-1/` a `semana-2/`, editá los días y sumá el link acá arriba.
