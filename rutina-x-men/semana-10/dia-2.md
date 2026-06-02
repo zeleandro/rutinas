@@ -7,9 +7,9 @@
 | Camilla | 20 | 5 |
 | Tijeras | 5 | 20 pasos |
 | Peso Muerto | 10 | 3 |
-| Pantorrillas |  | ilegible |
+| Pantorrillas |  | 3x… |
 
-> ⚠️ *Pantorrillas:* Revisar contra el original: baja legibilidad/mancha en el escaneo.
+> ⚠️ *Pantorrillas:* El original está truncado/incompleto en esta celda.
 
 ---
 ◀ [Día 1](dia-1.md) · [Índice semana](README.md) · [Día 3 ▶](dia-3.md)

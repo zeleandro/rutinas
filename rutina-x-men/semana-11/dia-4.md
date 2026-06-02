@@ -9,9 +9,9 @@
 | Hack 45º | 8 | 3 |
 | Si-Si | 10 | 4 |
 | Costurera | 12 | 3 |
-| Pant. Sin peso | 3 | ilegible |
+| Pant. Sin peso |  | 3x… |
 
-> ⚠️ *Pant. Sin peso:* Revisar contra el original: baja legibilidad/mancha en el escaneo.
+> ⚠️ *Pant. Sin peso:* El original está truncado/incompleto en esta celda.
 
 ---
 ◀ [Día 3](dia-3.md) · [Índice semana](README.md) · [Día 5 ▶](dia-5.md)

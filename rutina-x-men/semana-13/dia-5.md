@@ -11,7 +11,5 @@
 | Pantorrillera | 3 | 10 |
 | Pantorr. Sin Peso | 3 | 20 |
 
-> ⚠️ *Pantorr. Sin Peso:* Revisar contra el original: baja legibilidad/mancha en el escaneo.
-
 ---
 ◀ [Día 4](dia-4.md) · [Índice semana](README.md)

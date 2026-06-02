@@ -1230,15 +1230,6 @@
         },
         {
           "tipo": "ejercicio",
-          "ejercicio": "Ejercicio ilegible por mancha",
-          "series": 10,
-          "reps": [
-            4
-          ],
-          "observaciones": "Revisar contra el original: baja legibilidad/mancha en el escaneo."
-        },
-        {
-          "tipo": "ejercicio",
           "ejercicio": "Estocadas",
           "series": 8,
           "reps": [
@@ -1688,8 +1679,7 @@
         {
           "tipo": "ejercicio",
           "ejercicio": "Pantorrillas",
-          "reps": "ilegible",
-          "observaciones": "Revisar contra el original: baja legibilidad/mancha en el escaneo."
+          "reps": []
         }
       ],
       "dia_3": [
@@ -1801,8 +1791,7 @@
         {
           "tipo": "ejercicio",
           "ejercicio": "Pantorrillas",
-          "reps": "ilegible",
-          "observaciones": "Revisar contra el original: baja legibilidad/mancha en el escaneo."
+          "reps": []
         }
       ],
       "dia_5": [
@@ -2461,8 +2450,8 @@
         {
           "tipo": "ejercicio",
           "ejercicio": "Pantorrillas",
-          "reps": "ilegible",
-          "observaciones": "Revisar contra el original: baja legibilidad/mancha en el escaneo."
+          "reps": "3x…",
+          "observaciones": "El original está truncado/incompleto en esta celda."
         }
       ],
       "dia_3": [
@@ -2907,9 +2896,8 @@
         {
           "tipo": "ejercicio",
           "ejercicio": "Pant. Sin peso",
-          "series": 3,
-          "reps": "ilegible",
-          "observaciones": "Revisar contra el original: baja legibilidad/mancha en el escaneo."
+          "reps": "3x…",
+          "observaciones": "El original está truncado/incompleto en esta celda."
         }
       ],
       "dia_5": [
@@ -3625,8 +3613,7 @@
           "series": 3,
           "reps": [
             20
-          ],
-          "observaciones": "Revisar contra el original: baja legibilidad/mancha en el escaneo."
+          ]
         }
       ]
     },
@@ -3894,9 +3881,9 @@
       "dia_5": [
         {
           "tipo": "ejercicio",
-          "ejercicio": "Gambas o Galletas",
-          "reps": "ilegible",
-          "observaciones": "Revisar contra el original: baja legibilidad/mancha en el escaneo."
+          "ejercicio": "Gambas o Galletas!!!",
+          "reps": [],
+          "observaciones": "Nota del autor: figura sin series/reps en el original."
         }
       ]
     },
@@ -4013,7 +4000,8 @@
         {
           "tipo": "ejercicio",
           "ejercicio": "Pantorrillas",
-          "reps": "ilegible"
+          "reps": "3x…",
+          "observaciones": "El original está truncado/incompleto en esta celda."
         }
       ],
       "dia_3": [
@@ -4458,8 +4446,8 @@
         {
           "tipo": "ejercicio",
           "ejercicio": "Pant. Sin peso",
-          "series": 3,
-          "reps": "ilegible"
+          "reps": "3x…",
+          "observaciones": "El original está truncado/incompleto en esta celda."
         }
       ],
       "dia_5": [
@@ -5566,7 +5554,7 @@
         {
           "tipo": "ejercicio",
           "ejercicio": "Pantorrillas",
-          "reps": "ilegible"
+          "reps": []
         },
         {
           "tipo": "ejercicio",
@@ -6652,8 +6640,9 @@
       "dia_5": [
         {
           "tipo": "ejercicio",
-          "ejercicio": "Gambas o Galletas",
-          "reps": "ilegible"
+          "ejercicio": "Gambas o Galletas!!!",
+          "reps": [],
+          "observaciones": "Nota del autor: figura sin series/reps en el original."
         }
       ]
     },
@@ -7420,8 +7409,8 @@
         {
           "tipo": "ejercicio",
           "ejercicio": "Pant. Sin peso",
-          "series": 3,
-          "reps": "ilegible"
+          "reps": "3x…",
+          "observaciones": "El original está truncado/incompleto en esta celda."
         }
       ],
       "dia_5": [
@@ -7997,7 +7986,7 @@
         {
           "tipo": "ejercicio",
           "ejercicio": "Pantorrillas",
-          "reps": "ilegible"
+          "reps": []
         },
         {
           "tipo": "ejercicio",

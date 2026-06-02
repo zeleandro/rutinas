@@ -7,7 +7,7 @@
 | Hack | 12 | 4 |
 | Sillón | 12 | 5 |
 | Si-Si/Front. | 12 | 5 |
-| Pantorrillas |  | ilegible |
+| Pantorrillas |  |  |
 | Scott | 12 | 4 |
 
 ---

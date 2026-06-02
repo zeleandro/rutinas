@@ -2,9 +2,9 @@
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|
-| Gambas o Galletas |  | ilegible |
+| Gambas o Galletas!!! |  |  |
 
-> ⚠️ *Gambas o Galletas:* Revisar contra el original: baja legibilidad/mancha en el escaneo.
+> ⚠️ *Gambas o Galletas!!!:* Nota del autor: figura sin series/reps en el original.
 
 ---
 ◀ [Día 4](dia-4.md) · [Índice semana](README.md)
