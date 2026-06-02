@@ -2,14 +2,12 @@
 
 Rutinas de gym en Markdown, para abrir desde el celular en el gym.
 
-## Semanas
+## Rutinas
 
-- [Semana 1](semana-1/README.md) — split PPL de 6 días (lun–sáb)
-
-## 💡 Regla del mes
-
-**RIR 1-2:** terminá cada serie sintiendo que podrías hacer como máximo 1 o 2 repeticiones más.
+- [Rutina IA](rutina-ia/README.md) — split PPL, 1 semana (6 días)
+- [Rutina X-Men](rutina-x-men/README.md) — 31 semanas (del PDF IMG_0717)
 
 ---
 
-> Para agregar una semana nueva: copiá la carpeta `semana-1/` a `semana-2/`, editá los días y sumá el link acá arriba.
+> **Rutina IA**: editá los `.md` a mano.
+> **Rutina X-Men**: generada del JSON con `python3 scripts/generar_rutina.py` (no editar a mano; cambiá el JSON y regenerá).
