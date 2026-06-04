@@ -1,4 +1,4 @@
-# Semana 3 · Día 1
+# Semana 3 · Día 1 — Piernas y Glúteos
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

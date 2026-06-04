@@ -1,4 +1,4 @@
-# Semana 5 · Día 4
+# Semana 5 · Día 4 — Piernas y Glúteos
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

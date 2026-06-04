@@ -1,4 +1,4 @@
-# Semana 9 · Día 6
+# Semana 9 · Día 6 — Hombros y Brazos
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

@@ -1,4 +1,4 @@
-# Semana 3 · Día 2
+# Semana 3 · Día 2 — Pecho y Espalda
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

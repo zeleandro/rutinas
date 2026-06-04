@@ -1,4 +1,4 @@
-# Semana 7 · Día 1
+# Semana 7 · Día 1 — Piernas y Glúteos
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

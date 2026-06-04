@@ -1,4 +1,4 @@
-# Semana 9 · Día 5
+# Semana 9 · Día 5 — Pecho y Espalda
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

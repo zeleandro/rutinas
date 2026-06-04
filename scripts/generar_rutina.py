@@ -29,6 +29,7 @@ ROUTINES = [
         "json": "rutinas_normalizadas_v3.json",
         "descripcion": "31 semanas. Fuente: IMG_0717 (PDF escaneado, normalizado v3).",
         "manual": [],
+        "enfoque": {},
     },
     {
         "slug": "rutina-gemini",
@@ -39,6 +40,15 @@ ROUTINES = [
             "(Gemini: hipertrofia, 45-60 min, superseries, énfasis glúteo/cadena posterior)."
         ),
         "manual": [1],
+        # Grupo muscular por número de día (el split se repite igual en cada semana).
+        "enfoque": {
+            1: "Piernas y Glúteos",
+            2: "Pecho y Espalda",
+            3: "Hombros y Brazos",
+            4: "Piernas y Glúteos",
+            5: "Pecho y Espalda",
+            6: "Hombros y Brazos",
+        },
     },
 ]
 
@@ -61,8 +71,11 @@ def fmt_reps(reps):
     return ", ".join(str(r) for r in reps)
 
 
-def render_dia(semana_n, dia_n, bloques, prev_dia, next_dia):
-    lines = [f"# Semana {semana_n} · Día {dia_n}", ""]
+def render_dia(semana_n, dia_n, bloques, prev_dia, next_dia, enfoque=None):
+    titulo = f"# Semana {semana_n} · Día {dia_n}"
+    if enfoque:
+        titulo += f" — {enfoque}"
+    lines = [titulo, ""]
     lines.append("| Ejercicio | Series | Reps |")
     lines.append("|-----------|:------:|:----:|")
 
@@ -98,12 +111,19 @@ def render_dia(semana_n, dia_n, bloques, prev_dia, next_dia):
     return "\n".join(lines)
 
 
-def render_semana_index(titulo, semana_n, dias, prev_sem, next_sem):
+def render_semana_index(titulo, semana_n, dias, prev_sem, next_sem, enfoque_map=None):
     lines = [f"# {titulo} — Semana {semana_n}", ""]
-    lines.append("| Día | Bloques |")
-    lines.append("|-----|--------:|")
-    for dia_n, bloques in dias:
-        lines.append(f"| [Día {dia_n}](dia-{dia_n}.md) | {len(bloques)} |")
+    if enfoque_map:
+        lines.append("| Día | Enfoque | Bloques |")
+        lines.append("|-----|---------|--------:|")
+        for dia_n, bloques in dias:
+            enf = enfoque_map.get(dia_n, "")
+            lines.append(f"| [Día {dia_n}](dia-{dia_n}.md) | {enf} | {len(bloques)} |")
+    else:
+        lines.append("| Día | Bloques |")
+        lines.append("|-----|--------:|")
+        for dia_n, bloques in dias:
+            lines.append(f"| [Día {dia_n}](dia-{dia_n}.md) | {len(bloques)} |")
     lines.append("")
 
     nav = []
@@ -147,6 +167,7 @@ def generar(rutina):
     rutinas = data["rutinas"]
     out_dir = os.path.join(ROOT, rutina["slug"])
     manual = set(rutina["manual"])
+    enfoque_map = rutina.get("enfoque") or {}
     os.makedirs(out_dir, exist_ok=True)
 
     # Semanas presentes en el JSON, ordenadas: (num, [(num_dia, bloques), ...])
@@ -176,14 +197,14 @@ def generar(rutina):
         next_sem = todas[i + 1] if i < len(todas) - 1 else None
 
         with open(os.path.join(sem_dir, "README.md"), "w", encoding="utf-8") as f:
-            f.write(render_semana_index(rutina["titulo"], sn, dias, prev_sem, next_sem))
+            f.write(render_semana_index(rutina["titulo"], sn, dias, prev_sem, next_sem, enfoque_map))
 
         dia_nums = [dn for dn, _ in dias]
         for j, (dn, bloques) in enumerate(dias):
             prev_dia = dia_nums[j - 1] if j > 0 else None
             next_dia = dia_nums[j + 1] if j < len(dia_nums) - 1 else None
             with open(os.path.join(sem_dir, f"dia-{dn}.md"), "w", encoding="utf-8") as f:
-                f.write(render_dia(sn, dn, bloques, prev_dia, next_dia))
+                f.write(render_dia(sn, dn, bloques, prev_dia, next_dia, enfoque_map.get(dn)))
 
     # Índice de rutina: escanea el filesystem (manuales + generadas).
     semanas_con_dias = [

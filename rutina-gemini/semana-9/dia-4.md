@@ -1,4 +1,4 @@
-# Semana 9 · Día 4
+# Semana 9 · Día 4 — Piernas y Glúteos
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

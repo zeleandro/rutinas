@@ -1,4 +1,4 @@
-# Semana 7 · Día 3
+# Semana 7 · Día 3 — Hombros y Brazos
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

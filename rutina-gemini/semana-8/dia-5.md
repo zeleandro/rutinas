@@ -1,4 +1,4 @@
-# Semana 8 · Día 5
+# Semana 8 · Día 5 — Pecho y Espalda
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

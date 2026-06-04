@@ -1,4 +1,4 @@
-# Semana 10 · Día 1
+# Semana 10 · Día 1 — Piernas y Glúteos
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|

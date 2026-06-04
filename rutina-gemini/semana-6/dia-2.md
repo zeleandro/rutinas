@@ -1,4 +1,4 @@
-# Semana 6 · Día 2
+# Semana 6 · Día 2 — Pecho y Espalda
 
 | Ejercicio | Series | Reps |
 |-----------|:------:|:----:|
