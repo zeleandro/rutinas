@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "fuente": "Bloque 1 optimizado de 6 días",
+    "formato": "normalizado_v3_bloque1",
+    "estructura": "6 días por semana (Fuerza/Hipertrofia c/énfasis en glúteos)",
+    "estrategias": "Superseries, progresión en Hip Thrust y Estocadas Búlgaras, control de tiempo (45-60 min)"
+  },
+  "rutinas": {
+    "semana_2": {
+      "dia_1": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust (barrapesada)", "series": 4, "reps": [12, 10, 8, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa 45º", "reps": [10] }, { "ejercicio": "Camilla de Isquios", "reps": [12] }] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras c/manc", "series": 3, "reps": [10, 10, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Sillón de Cuádriceps", "reps": [12] }, { "ejercicio": "Costurera", "reps": [15] }] }
+      ],
+      "dia_2": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Bco. Plano c/barra", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo con Barra prono", "reps": [10, 10, 8, 8] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Incl. c/manc", "reps": [10] }, { "ejercicio": "Pol. al Pecho prono", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Apert. Plana c/manc", "reps": [12] }, { "ejercicio": "Pullover c/manc", "reps": [12] }] }
+      ],
+      "dia_3": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar c/barra", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Laterales c/manc", "reps": [12, 12, 10, 10] }] },
+        { "tipo": "ejercicio", "ejercicio": "Vuelos Posteriores (Pájaro)", "series": 3, "reps": [12] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps c/Barra EZ", "reps": [10] }, { "ejercicio": "Curl Francés EZ", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo c/manc", "reps": [12] }, { "ejercicio": "Ext. Tríceps c/soga", "reps": [12] }] }
+      ],
+      "dia_4": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust (barrapesada)", "series": 4, "reps": [12, 10, 8, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa 45º", "reps": [10] }, { "ejercicio": "Camilla de Isquios", "reps": [12] }] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras c/manc", "series": 3, "reps": [10, 10, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Sillón de Cuádriceps", "reps": [12] }, { "ejercicio": "Costurera", "reps": [15] }] }
+      ],
+      "dia_5": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Bco. Plano c/barra", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo con Barra prono", "reps": [10, 10, 8, 8] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Incl. c/manc", "reps": [10] }, { "ejercicio": "Pol. al Pecho prono", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Apert. Plana c/manc", "reps": [12] }, { "ejercicio": "Pullover c/manc", "reps": [12] }] }
+      ],
+      "dia_6": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar c/barra", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Laterales c/manc", "reps": [12, 12, 10, 10] }] },
+        { "tipo": "ejercicio", "ejercicio": "Vuelos Posteriores (Pájaro)", "series": 3, "reps": [12] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps c/Barra EZ", "reps": [10] }, { "ejercicio": "Curl Francés EZ", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo c/manc", "reps": [12] }, { "ejercicio": "Ext. Tríceps c/soga", "reps": [12] }] }
+      ]
+    },
+    "semana_3": {
+      "dia_1": [
+        { "tipo": "ejercicio", "ejercicio": "Sentadillas libres", "series": 4, "reps": [10, 8, 8, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust (pausa 2'' arriba)", "series": 4, "reps": [12, 10, 10, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Estocadas caminadas", "reps": ["20 pas"] }, { "ejercicio": "Peso Muerto Rumano c/manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Hack Squat", "reps": [10] }, { "ejercicio": "Pantorrillera parado", "reps": [15] }] }
+      ],
+      "dia_2": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Inclinado c/manc", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo Dorian c/barra", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Hammer Pecho", "reps": [10] }, { "ejercicio": "Remo Caballo prono", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Cruce de Poleas alto", "reps": [12] }, { "ejercicio": "Pol. al Pecho supino", "reps": [10] }] }
+      ],
+      "dia_3": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Mancuerna Hombros", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Lat. 120º c/polea", "reps": [12, 10, 10, 8] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Remo al Mentón c/barra", "reps": [10] }, { "ejercicio": "Deltoides Post. en máquina", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps en Banco Scott", "reps": [10] }, { "ejercicio": "Empuje Agarre Cerrado", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Supinado c/manc", "reps": [12] }, { "ejercicio": "Patada de Tríceps c/polea", "reps": [12] }] }
+      ],
+      "dia_4": [
+        { "tipo": "ejercicio", "ejercicio": "Sentadillas libres", "series": 4, "reps": [10, 8, 8, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust (pausa 2'' arriba)", "series": 4, "reps": [12, 10, 10, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Estocadas caminadas", "reps": ["20 pas"] }, { "ejercicio": "Peso Muerto Rumano c/manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Hack Squat", "reps": [10] }, { "ejercicio": "Pantorrillera parado", "reps": [15] }] }
+      ],
+      "dia_5": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Inclinado c/manc", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo Dorian c/barra", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Hammer Pecho", "reps": [10] }, { "ejercicio": "Remo Caballo prono", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Cruce de Poleas alto", "reps": [12] }, { "ejercicio": "Pol. al Pecho supino", "reps": [10] }] }
+      ],
+      "dia_6": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Mancuerna Hombros", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Lat. 120º c/polea", "reps": [12, 10, 10, 8] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Remo al Mentón c/barra", "reps": [10] }, { "ejercicio": "Deltoides Post. en máquina", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps en Banco Scott", "reps": [10] }, { "ejercicio": "Empuje Agarre Cerrado", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Supinado c/manc", "reps": [12] }, { "ejercicio": "Patada de Tríceps c/polea", "reps": [12] }] }
+      ]
+    },
+    "semana_4": {
+      "dia_1": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust piramidal", "series": 4, "reps": [15, 12, 10, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras (Énfasis Glúteo)", "series": 3, "reps": [10, 8, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa Asistida", "reps": [12] }, { "ejercicio": "Peso Muerto c/mancuerna", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Abductores en Máquina", "reps": [15] }, { "ejercicio": "Costurera", "reps": [20] }] }
+      ],
+      "dia_2": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Bco. Plano c/manc", "reps": [10, 8, 8, 8] }, { "ejercicio": "Remo 1 Brazo c/manc", "reps": [10, 8, 8, 8] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Apert. Inclinada c/manc", "reps": [12] }, { "ejercicio": "Polea Baja Neutra", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Paralelas (Fallo)", "reps": [8] }, { "ejercicio": "Dominadas Asistidas", "reps": [8] }] }
+      ],
+      "dia_3": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Arnold Hombros", "reps": [12, 10, 8, 8] }, { "ejercicio": "Vuelos Laterales estrictos", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Vuelos Frontales c/disco", "reps": [12] }, { "ejercicio": "Encogimientos c/barra", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Concentrado", "reps": [10] }, { "ejercicio": "Hammer Triceps Máquina", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Alterno c/giro", "reps": [12] }, { "ejercicio": "Pol. p/triceps toma invertida", "reps": [12] }] }
+      ],
+      "dia_4": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust piramidal", "series": 4, "reps": [15, 12, 10, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras (Énfasis Glúteo)", "series": 3, "reps": [10, 8, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa Asistida", "reps": [12] }, { "ejercicio": "Peso Muerto c/mancuerna", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Abductores en Máquina", "reps": [15] }, { "ejercicio": "Costurera", "reps": [20] }] }
+      ],
+      "dia_5": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Bco. Plano c/manc", "reps": [10, 8, 8, 8] }, { "ejercicio": "Remo 1 Brazo c/manc", "reps": [10, 8, 8, 8] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Apert. Inclinada c/manc", "reps": [12] }, { "ejercicio": "Polea Baja Neutra", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Paralelas (Fallo)", "reps": [8] }, { "ejercicio": "Dominadas Asistidas", "reps": [8] }] }
+      ],
+      "dia_6": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Arnold Hombros", "reps": [12, 10, 8, 8] }, { "ejercicio": "Vuelos Laterales estrictos", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Vuelos Frontales c/disco", "reps": [12] }, { "ejercicio": "Encogimientos c/barra", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Concentrado", "reps": [10] }, { "ejercicio": "Hammer Triceps Máquina", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Alterno c/giro", "reps": [12] }, { "ejercicio": "Pol. p/triceps toma invertida", "reps": [12] }] }
+      ]
+    },
+    "semana_5": {
+      "dia_1": [
+        { "tipo": "ejercicio", "ejercicio": "Peso Muerto Convencional", "series": 4, "reps": [10, 8, 6, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust c/Banda", "series": 4, "reps": [12, 12, 10, 10] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Sentadilla Goblet", "reps": [12] }, { "ejercicio": "Camilla de Isquios", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Hipertextensiones Glúteo", "reps": [15] }, { "ejercicio": "Pant. en Prensa", "reps": [15] }] }
+      ],
+      "dia_2": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Declinado c/barra", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo Caballo Neutro", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Mariposa Pecho", "reps": [12] }, { "ejercicio": "Pol. al Pecho ancho", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Lagartijas", "reps": [15] }, { "ejercicio": "Remo barra Supino", "reps": [10] }] }
+      ],
+      "dia_3": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar Multifuerza", "reps": [10, 8, 8, 8] }, { "ejercicio": "Vuelos Lat. Cortos", "reps": [15] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Vuelos Posteriores c/polea", "reps": [12] }, { "ejercicio": "Encogimientos c/manc", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Polea barra recta", "reps": [10] }, { "ejercicio": "Curl Francés c/manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo alternado", "reps": [12] }, { "ejercicio": "Ext. Tríceps soga overhead", "reps": [12] }] }
+      ],
+      "dia_4": [
+        { "tipo": "ejercicio", "ejercicio": "Peso Muerto Convencional", "series": 4, "reps": [10, 8, 6, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust c/Banda", "series": 4, "reps": [12, 12, 10, 10] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Sentadilla Goblet", "reps": [12] }, { "ejercicio": "Camilla de Isquios", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Hipertextensiones Glúteo", "reps": [15] }, { "ejercicio": "Pant. en Prensa", "reps": [15] }] }
+      ],
+      "dia_5": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Declinado c/barra", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo Caballo Neutro", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Mariposa Pecho", "reps": [12] }, { "ejercicio": "Pol. al Pecho ancho", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Lagartijas", "reps": [15] }, { "ejercicio": "Remo barra Supino", "reps": [10] }] }
+      ],
+      "dia_6": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar Multifuerza", "reps": [10, 8, 8, 8] }, { "ejercicio": "Vuelos Lat. Cortos", "reps": [15] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Vuelos Posteriores c/polea", "reps": [12] }, { "ejercicio": "Encogimientos c/manc", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Polea barra recta", "reps": [10] }, { "ejercicio": "Curl Francés c/manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo alternado", "reps": [12] }, { "ejercicio": "Ext. Tríceps soga overhead", "reps": [12] }] }
+      ]
+    },
+    "semana_6": {
+      "dia_1": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust pesado (Rest-Pause)", "series": 4, "reps": [12, 10, 8, "6+Fallo"] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras c/manc", "series": 3, "reps": [10, 8, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Sillón de Cuádriceps", "reps": [10] }, { "ejercicio": "Camilla de Isquios", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa pies altos", "reps": [12] }, { "ejercicio": "Costurera", "reps": [15] }] }
+      ],
+      "dia_2": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Bco. Inclinado c/barra", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo con Barra prono", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Plano c/manc", "reps": [10] }, { "ejercicio": "Pol. al Pecho cerrado V", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Cruce Poleas bajo", "reps": [12] }, { "ejercicio": "Pullover soga polea alta", "reps": [12] }] }
+      ],
+      "dia_3": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar tras nuca", "reps": [10, 10, 8, 8] }, { "ejercicio": "Vuelos Lat. sentados", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Remo al Mentón polea", "reps": [10] }, { "ejercicio": "Vuelos Post. inclinado", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Bco. Inclinado", "reps": [10] }, { "ejercicio": "Ext. Tríceps barra romana", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps barra Z inv.", "reps": [12] }, { "ejercicio": "Polea Tríceps barra recta", "reps": [12] }] }
+      ],
+      "dia_4": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust pesado (Rest-Pause)", "series": 4, "reps": [12, 10, 8, "6+Fallo"] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras c/manc", "series": 3, "reps": [10, 8, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Sillón de Cuádriceps", "reps": [10] }, { "ejercicio": "Camilla de Isquios", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa pies altos", "reps": [12] }, { "ejercicio": "Costurera", "reps": [15] }] }
+      ],
+      "dia_5": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Bco. Inclinado c/barra", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo con Barra prono", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Plano c/manc", "reps": [10] }, { "ejercicio": "Pol. al Pecho cerrado V", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Cruce Poleas bajo", "reps": [12] }, { "ejercicio": "Pullover soga polea alta", "reps": [12] }] }
+      ],
+      "dia_6": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar tras nuca", "reps": [10, 10, 8, 8] }, { "ejercicio": "Vuelos Lat. sentados", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Remo al Mentón polea", "reps": [10] }, { "ejercicio": "Vuelos Post. inclinado", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Bco. Inclinado", "reps": [10] }, { "ejercicio": "Ext. Tríceps barra romana", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps barra Z inv.", "reps": [12] }, { "ejercicio": "Polea Tríceps barra recta", "reps": [12] }] }
+      ]
+    },
+    "semana_7": {
+      "dia_1": [
+        { "tipo": "ejercicio", "ejercicio": "Sentadilla Hack (Pies altos)", "series": 4, "reps": [12, 10, 10, 8] },
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust continuo", "series": 4, "reps": [15, 12, 12, 10] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Peso Muerto Rumano c/barra", "reps": [10, 8, 8] }, { "ejercicio": "Sillón de Cuádriceps", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Patadas Glúteo Polea", "reps": [12] }, { "ejercicio": "Pantorrillas sentado", "reps": [15] }] }
+      ],
+      "dia_2": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Hammer Pecho inc.", "reps": [10, 10, 8, 8] }, { "ejercicio": "Dominadas prono", "reps": ["Fallo"] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Plano c/barra", "reps": [10] }, { "ejercicio": "Remo Dorian c/manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Aperturas Declinadas", "reps": [12] }, { "ejercicio": "Remo Bajo polea", "reps": [10] }] }
+      ],
+      "dia_3": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar Mancuerna", "reps": [10, 8, 8, 8] }, { "ejercicio": "Vuelos Laterales piram.", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Vuelos Frontales alt.", "reps": [12] }, { "ejercicio": "Pájaro en máquina", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps barra W ancho", "reps": [10] }, { "ejercicio": "Paralelas bancos c/peso", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo soga", "reps": [12] }, { "ejercicio": "Ext. Tríceps unilateral inv.", "reps": [12] }] }
+      ],
+      "dia_4": [
+        { "tipo": "ejercicio", "ejercicio": "Sentadilla Hack (Pies altos)", "series": 4, "reps": [12, 10, 10, 8] },
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust continuo", "series": 4, "reps": [15, 12, 12, 10] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Peso Muerto Rumano c/barra", "reps": [10, 8, 8] }, { "ejercicio": "Sillón de Cuádriceps", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Patadas Glúteo Polea", "reps": [12] }, { "ejercicio": "Pantorrillas sentado", "reps": [15] }] }
+      ],
+      "dia_5": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Hammer Pecho inc.", "reps": [10, 10, 8, 8] }, { "ejercicio": "Dominadas prono", "reps": ["Fallo"] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Plano c/barra", "reps": [10] }, { "ejercicio": "Remo Dorian c/manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Aperturas Declinadas", "reps": [12] }, { "ejercicio": "Remo Bajo polea", "reps": [10] }] }
+      ],
+      "dia_6": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar Mancuerna", "reps": [10, 8, 8, 8] }, { "ejercicio": "Vuelos Laterales piram.", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Vuelos Frontales alt.", "reps": [12] }, { "ejercicio": "Pájaro en máquina", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps barra W ancho", "reps": [10] }, { "ejercicio": "Paralelas bancos c/peso", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo soga", "reps": [12] }, { "ejercicio": "Ext. Tríceps unilateral inv.", "reps": [12] }] }
+      ]
+    },
+    "semana_8": {
+      "dia_1": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust pesado de verdad", "series": 5, "reps": [12, 10, 8, 6, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras (Tempo 3-1-1)", "series": 3, "reps": [8, 8, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa Piernas juntas", "reps": [12] }, { "ejercicio": "Camilla Isquios sentada", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Abductores polea", "reps": [15] }, { "ejercicio": "Pantorrillera multifuerza", "reps": [15] }] }
+      ],
+      "dia_2": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Pecho convergente", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo con Barra supino", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Incl. c/manc", "reps": [10] }, { "ejercicio": "Pol. prono ancho", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Aperturas planas polea", "reps": [12] }, { "ejercicio": "Remo 1 brazo c/manc", "reps": [10] }] }
+      ],
+      "dia_3": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Hombro barra de pie", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Lat. inclinados", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Remo mentón abierto", "reps": [10] }, { "ejercicio": "Vuelos Post. en banco", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps concentración", "reps": [10] }, { "ejercicio": "Extensión francesa manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps barra recta polea", "reps": [12] }, { "ejercicio": "Ext. Tríceps soga unilat.", "reps": [12] }] }
+      ],
+      "dia_4": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust pesado de verdad", "series": 5, "reps": [12, 10, 8, 6, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras (Tempo 3-1-1)", "series": 3, "reps": [8, 8, 8] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa Piernas juntas", "reps": [12] }, { "ejercicio": "Camilla Isquios sentada", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Abductores polea", "reps": [15] }, { "ejercicio": "Pantorrillera multifuerza", "reps": [15] }] }
+      ],
+      "dia_5": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Pecho convergente", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo con Barra supino", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Incl. c/manc", "reps": [10] }, { "ejercicio": "Pol. prono ancho", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Aperturas planas polea", "reps": [12] }, { "ejercicio": "Remo 1 brazo c/manc", "reps": [10] }] }
+      ],
+      "dia_6": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Hombro barra de pie", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Lat. inclinados", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Remo mentón abierto", "reps": [10] }, { "ejercicio": "Vuelos Post. en banco", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps concentración", "reps": [10] }, { "ejercicio": "Extensión francesa manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps barra recta polea", "reps": [12] }, { "ejercicio": "Ext. Tríceps soga unilat.", "reps": [12] }] }
+      ]
+    },
+    "semana_9": {
+      "dia_1": [
+        { "tipo": "ejercicio", "ejercicio": "Sentadillas Libres Profundas", "series": 4, "reps": [10, 8, 6, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust (Drop-set final)", "series": 4, "reps": [12, 10, 8, "8+Fallo"] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Estocadas Búlgaras s/peso", "reps": ["Fallo"] }, { "ejercicio": "Peso Muerto Rumano c/manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Sillón de Cuádriceps", "reps": [12] }, { "ejercicio": "Costurera", "reps": [15] }] }
+      ],
+      "dia_2": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Plano c/barra", "reps": [12, 10, 8, 6] }, { "ejercicio": "Remo con Barra prono", "reps": [12, 10, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Inclinado c/manc", "reps": [10] }, { "ejercicio": "Pol. Pecho inv.", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Cruce poleas alto", "reps": [12] }, { "ejercicio": "Remo Caballo prono", "reps": [10] }] }
+      ],
+      "dia_3": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar manc", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Laterales c/manc", "reps": [12, 10, 10, 8] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Vuelos Frontales barra Z", "reps": [12] }, { "ejercicio": "Delt. Posteriores polea", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Scott barra Z", "reps": [10] }, { "ejercicio": "Empuje Agarre Cerrado", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo c/manc", "reps": [12] }, { "ejercicio": "Ext. Tríceps c/soga", "reps": [12] }] }
+      ],
+      "dia_4": [
+        { "tipo": "ejercicio", "ejercicio": "Sentadillas Libres Profundas", "series": 4, "reps": [10, 8, 6, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust (Drop-set final)", "series": 4, "reps": [12, 10, 8, "8+Fallo"] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Estocadas Búlgaras s/peso", "reps": ["Fallo"] }, { "ejercicio": "Peso Muerto Rumano c/manc", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Sillón de Cuádriceps", "reps": [12] }, { "ejercicio": "Costurera", "reps": [15] }] }
+      ],
+      "dia_5": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Plano c/barra", "reps": [12, 10, 8, 6] }, { "ejercicio": "Remo con Barra prono", "reps": [12, 10, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Inclinado c/manc", "reps": [10] }, { "ejercicio": "Pol. Pecho inv.", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Cruce poleas alto", "reps": [12] }, { "ejercicio": "Remo Caballo prono", "reps": [10] }] }
+      ],
+      "dia_6": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar manc", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Laterales c/manc", "reps": [12, 10, 10, 8] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Vuelos Frontales barra Z", "reps": [12] }, { "ejercicio": "Delt. Posteriores polea", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Scott barra Z", "reps": [10] }, { "ejercicio": "Empuje Agarre Cerrado", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo c/manc", "reps": [12] }, { "ejercicio": "Ext. Tríceps c/soga", "reps": [12] }] }
+      ]
+    },
+    "semana_10": {
+      "dia_1": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust Pesado (Pausa 3'')", "series": 4, "reps": [12, 10, 8, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras c/manc", "series": 4, "reps": [10, 8, 8, 6] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa 45º (Pies juntos)", "reps": [12] }, { "ejercicio": "Camilla de Isquios", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Abductores en máquina", "reps": [20] }, { "ejercicio": "Pantorrillera Parado", "reps": [15] }] }
+      ],
+      "dia_2": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Plano c/manc", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo Dorian c/barra", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Inclinado c/barra", "reps": [10] }, { "ejercicio": "Pol. Pecho cerrado", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Mariposa Pecho", "reps": [12] }, { "ejercicio": "Remo 1 Brazo c/manc", "reps": [10] }] }
+      ],
+      "dia_3": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar barra pie", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Laterales c/manc", "reps": [12, 12, 10, 10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Remo al Mentón c/barra", "reps": [10] }, { "ejercicio": "Vuelos Post. inclinado", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Alterno Supinado", "reps": [10] }, { "ejercicio": "Curl Francés EZ tumbado", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo soga", "reps": [12] }, { "ejercicio": "Ext. Tríceps soga overhead", "reps": [12] }] }
+      ],
+      "dia_4": [
+        { "tipo": "ejercicio", "ejercicio": "Hip Thrust Pesado (Pausa 3'')", "series": 4, "reps": [12, 10, 8, 6] },
+        { "tipo": "ejercicio", "ejercicio": "Estocadas Búlgaras c/manc", "series": 4, "reps": [10, 8, 8, 6] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Prensa 45º (Pies juntos)", "reps": [12] }, { "ejercicio": "Camilla de Isquios", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Abductores en máquina", "reps": [20] }, { "ejercicio": "Pantorrillera Parado", "reps": [15] }] }
+      ],
+      "dia_5": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Plano c/manc", "reps": [10, 8, 8, 6] }, { "ejercicio": "Remo Dorian c/barra", "reps": [10, 8, 8, 6] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Press Inclinado c/barra", "reps": [10] }, { "ejercicio": "Pol. Pecho cerrado", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Mariposa Pecho", "reps": [12] }, { "ejercicio": "Remo 1 Brazo c/manc", "reps": [10] }] }
+      ],
+      "dia_6": [
+        { "tipo": "superserie", "series": 4, "ejercicios": [{ "ejercicio": "Press Militar barra pie", "reps": [10, 8, 8, 6] }, { "ejercicio": "Vuelos Laterales c/manc", "reps": [12, 12, 10, 10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Remo al Mentón c/barra", "reps": [10] }, { "ejercicio": "Vuelos Post. inclinado", "reps": [12] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Alterno Supinado", "reps": [10] }, { "ejercicio": "Curl Francés EZ tumbado", "reps": [10] }] },
+        { "tipo": "superserie", "series": 3, "ejercicios": [{ "ejercicio": "Bíceps Martillo soga", "reps": [12] }, { "ejercicio": "Ext. Tríceps soga overhead", "reps": [12] }] }
+      ]
+    }
+  }
+}

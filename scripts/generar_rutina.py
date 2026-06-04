@@ -1,26 +1,46 @@
 #!/usr/bin/env python3
-"""Genera el árbol markdown de una rutina a partir del JSON normalizado.
+"""Genera el árbol markdown de las rutinas a partir de sus JSON normalizados.
 
 Uso:
     python3 scripts/generar_rutina.py
 
-Lee rutinas_normalizadas_v3.json y emite el árbol rutina-x-men/ con:
-  rutina-x-men/README.md            índice de la rutina (lista de semanas)
-  rutina-x-men/semana-K/README.md   índice de la semana (lista de días)
-  rutina-x-men/semana-K/dia-N.md    tabla del día
+Para cada rutina en ROUTINES emite:
+  <slug>/README.md            índice de la rutina (lista de semanas)
+  <slug>/semana-K/README.md   índice de la semana (lista de días)
+  <slug>/semana-K/dia-N.md    tabla del día
 
-NO toca rutina-ia/ (esa es a mano).
+Las semanas listadas en "manual" se hacen a mano y NO se tocan (solo se
+generan las semanas presentes en el JSON). El índice de rutina se arma
+escaneando el filesystem, así lista por igual las semanas manuales y las
+generadas.
 """
 
 import json
 import os
 import shutil
+import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-JSON_PATH = os.path.join(ROOT, "rutinas_normalizadas_v3.json")
-SLUG = "rutina-x-men"
-TITULO = "Rutina X-Men"
-FUENTE = "IMG_0717 (PDF escaneado, normalizado v3)"
+
+ROUTINES = [
+    {
+        "slug": "rutina-x-men",
+        "titulo": "Rutina X-Men",
+        "json": "rutinas_normalizadas_v3.json",
+        "descripcion": "31 semanas. Fuente: IMG_0717 (PDF escaneado, normalizado v3).",
+        "manual": [],
+    },
+    {
+        "slug": "rutina-gemini",
+        "titulo": "Rutina Gemini",
+        "json": "gemini-code-1780609073340.json",
+        "descripcion": (
+            "10 semanas. Semana 1 a mano (PPL 6 días); semanas 2-10 generadas "
+            "(Gemini: hipertrofia, 45-60 min, superseries, énfasis glúteo/cadena posterior)."
+        ),
+        "manual": [1],
+    },
+]
 
 
 def num_suffix(key):
@@ -31,8 +51,8 @@ def num_suffix(key):
 def fmt_reps(reps):
     """[10, 8] -> '10, 8'; [3] -> '3'; 'Fallo' -> 'Fallo'; None -> ''.
 
-    reps puede venir como array numérico o como string suelto (p. ej.
-    'Fallo', '20 pasos', 'ilegible').
+    reps puede venir como array (con números y/o strings, p. ej.
+    [12, 10, 8, '6+Fallo']) o como string suelto ('Fallo', '20 pasos').
     """
     if reps is None:
         return ""
@@ -78,8 +98,8 @@ def render_dia(semana_n, dia_n, bloques, prev_dia, next_dia):
     return "\n".join(lines)
 
 
-def render_semana_index(semana_n, dias, prev_sem, next_sem):
-    lines = [f"# {TITULO} — Semana {semana_n}", ""]
+def render_semana_index(titulo, semana_n, dias, prev_sem, next_sem):
+    lines = [f"# {titulo} — Semana {semana_n}", ""]
     lines.append("| Día | Bloques |")
     lines.append("|-----|--------:|")
     for dia_n, bloques in dias:
@@ -98,14 +118,15 @@ def render_semana_index(semana_n, dias, prev_sem, next_sem):
     return "\n".join(lines)
 
 
-def render_rutina_index(semanas):
-    lines = [f"# {TITULO}", ""]
-    lines.append(f"{len(semanas)} semanas. Fuente: {FUENTE}.")
+def render_rutina_index(titulo, descripcion, semanas_con_dias):
+    """semanas_con_dias: lista ordenada de (numero_semana, cantidad_dias)."""
+    lines = [f"# {titulo}", ""]
+    lines.append(descripcion)
     lines.append("")
     lines.append("| Semana | Días |")
     lines.append("|--------|-----:|")
-    for semana_n, dias in semanas:
-        lines.append(f"| [Semana {semana_n}](semana-{semana_n}/README.md) | {len(dias)} |")
+    for sn, ndias in semanas_con_dias:
+        lines.append(f"| [Semana {sn}](semana-{sn}/README.md) | {ndias} |")
     lines.append("")
     lines.append("---")
     lines.append("[← Volver al índice](../README.md)")
@@ -113,36 +134,49 @@ def render_rutina_index(semanas):
     return "\n".join(lines)
 
 
-def main():
-    with open(JSON_PATH, encoding="utf-8") as f:
+def contar_dias(sem_dir):
+    """Cuenta archivos dia-*.md dentro de una carpeta de semana."""
+    if not os.path.isdir(sem_dir):
+        return 0
+    return len([f for f in os.listdir(sem_dir) if re.fullmatch(r"dia-\d+\.md", f)])
+
+
+def generar(rutina):
+    with open(os.path.join(ROOT, rutina["json"]), encoding="utf-8") as f:
         data = json.load(f)
-
     rutinas = data["rutinas"]
-    out_dir = os.path.join(ROOT, SLUG)
-    if os.path.isdir(out_dir):
-        shutil.rmtree(out_dir)
-    os.makedirs(out_dir)
+    out_dir = os.path.join(ROOT, rutina["slug"])
+    manual = set(rutina["manual"])
+    os.makedirs(out_dir, exist_ok=True)
 
-    # Lista ordenada de (numero_semana, [(numero_dia, bloques), ...])
-    semanas = []
+    # Semanas presentes en el JSON, ordenadas: (num, [(num_dia, bloques), ...])
+    json_semanas = []
     for sk in sorted(rutinas, key=num_suffix):
         sn = num_suffix(sk)
         dias = [
             (num_suffix(dk), rutinas[sk][dk])
             for dk in sorted(rutinas[sk], key=num_suffix)
         ]
-        semanas.append((sn, dias))
+        json_semanas.append((sn, dias))
 
-    sem_nums = [sn for sn, _ in semanas]
+    # Rango completo (manuales + generadas) para la navegación entre semanas.
+    todas = sorted(manual | {sn for sn, _ in json_semanas})
 
-    for idx, (sn, dias) in enumerate(semanas):
+    # Borrado selectivo: limpiar solo las semanas generadas (preserva las manuales).
+    for name in os.listdir(out_dir):
+        m = re.fullmatch(r"semana-(\d+)", name)
+        if m and int(m.group(1)) not in manual:
+            shutil.rmtree(os.path.join(out_dir, name))
+
+    for sn, dias in json_semanas:
         sem_dir = os.path.join(out_dir, f"semana-{sn}")
-        os.makedirs(sem_dir)
-        prev_sem = sem_nums[idx - 1] if idx > 0 else None
-        next_sem = sem_nums[idx + 1] if idx < len(sem_nums) - 1 else None
+        os.makedirs(sem_dir, exist_ok=True)
+        i = todas.index(sn)
+        prev_sem = todas[i - 1] if i > 0 else None
+        next_sem = todas[i + 1] if i < len(todas) - 1 else None
 
         with open(os.path.join(sem_dir, "README.md"), "w", encoding="utf-8") as f:
-            f.write(render_semana_index(sn, dias, prev_sem, next_sem))
+            f.write(render_semana_index(rutina["titulo"], sn, dias, prev_sem, next_sem))
 
         dia_nums = [dn for dn, _ in dias]
         for j, (dn, bloques) in enumerate(dias):
@@ -151,11 +185,21 @@ def main():
             with open(os.path.join(sem_dir, f"dia-{dn}.md"), "w", encoding="utf-8") as f:
                 f.write(render_dia(sn, dn, bloques, prev_dia, next_dia))
 
+    # Índice de rutina: escanea el filesystem (manuales + generadas).
+    semanas_con_dias = [
+        (sn, contar_dias(os.path.join(out_dir, f"semana-{sn}"))) for sn in todas
+    ]
     with open(os.path.join(out_dir, "README.md"), "w", encoding="utf-8") as f:
-        f.write(render_rutina_index(semanas))
+        f.write(render_rutina_index(rutina["titulo"], rutina["descripcion"], semanas_con_dias))
 
-    total_dias = sum(len(dias) for _, dias in semanas)
-    print(f"Generado {SLUG}/: {len(semanas)} semanas, {total_dias} días.")
+    gen = sum(len(dias) for _, dias in json_semanas)
+    print(f"Generado {rutina['slug']}/: {len(todas)} semanas ({len(json_semanas)} del JSON, "
+          f"{len(manual)} manual), {gen} días generados.")
+
+
+def main():
+    for rutina in ROUTINES:
+        generar(rutina)
 
 
 if __name__ == "__main__":

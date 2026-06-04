@@ -21,4 +21,4 @@
 **RIR 1-2:** terminá cada serie sintiendo que podrías hacer como máximo 1 o 2 repeticiones más.
 
 ---
-[← Volver al índice](../README.md)
+[Índice rutina](../README.md) · [Semana 2 ▶](../semana-2/README.md)
