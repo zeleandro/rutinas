@@ -50,7 +50,108 @@ ROUTINES = [
             6: "Hombros y Brazos",
         },
     },
+    {
+        "slug": "rutina-claude",
+        "titulo": "Rutina Claude",
+        "json": "rutinas_nuevas_10semanas.json",
+        "descripcion": (
+            "10 semanas / 6 días. PPL con días de especialización y superseries. "
+            "Objetivo: hipertrofia con bajo % de grasa."
+        ),
+        "manual": [],
+        # "auto": el grupo muscular se infiere por día desde los ejercicios
+        # (el split no es posicional fijo; el día 6 es de especialización).
+        "enfoque": "auto",
+    },
 ]
+
+
+# Clasificador de grupo muscular por ejercicio. Lista ordenada: el primer
+# substring (en minúsculas) que aparece en el nombre define el grupo. El orden
+# va de específico a genérico para resolver ambigüedades (p. ej. "Remo al Ment."
+# es Hombros y no Espalda; "Bíc. c/m. Bco. Incl." es Bíceps y no Pecho).
+GRUPOS_KEYWORDS = [
+    ("remo al ment", "Hombros"),
+    ("press incl", "Pecho"),
+    ("press declin", "Pecho"),
+    ("press mancuerna hombros", "Hombros"),
+    ("press mil", "Hombros"),
+    ("v. lat", "Hombros"),
+    ("vuel. lat", "Hombros"),
+    ("vuelos lat", "Hombros"),
+    ("v. later", "Hombros"),
+    ("v. post", "Hombros"),
+    ("vuel. post", "Hombros"),
+    ("vuelos front", "Hombros"),
+    ("delt. post", "Hombros"),
+    ("encogim", "Hombros"),
+    ("curl fr", "Tríceps"),          # Curl Francés
+    ("ext. tric", "Tríceps"),
+    ("hammer tric", "Tríceps"),
+    ("pol. p/tric", "Tríceps"),
+    ("pol. c/soga", "Tríceps"),
+    ("apert", "Pecho"),
+    ("cruce pol", "Pecho"),
+    ("mariposa", "Pecho"),
+    ("paralelas", "Pecho"),
+    ("lagartijas", "Pecho"),
+    ("hammer bíc", "Bíceps"),
+    ("bco. scott", "Bíceps"),
+    ("scott", "Bíceps"),
+    ("bíc", "Bíceps"),               # antes que "bco." -> "Bíc. c/m. Bco. Incl."
+    ("bco.", "Pecho"),               # Bco. Plano/Pl/Inclin/Incl/Declinado/Decl
+    ("dominadas", "Espalda"),
+    ("dorian", "Espalda"),
+    ("pullover", "Espalda"),
+    ("pol. al pecho", "Espalda"),
+    ("remo", "Espalda"),
+    ("sentadilla", "Piernas"),
+    ("sent", "Piernas"),             # Sent. Fr., Sent. c/manc.
+    ("hack", "Piernas"),
+    ("prensa", "Piernas"),
+    ("sillón", "Piernas"),
+    ("camilla", "Piernas"),
+    ("estoc", "Piernas"),
+    ("tijeras", "Piernas"),
+    ("peso muerto", "Piernas"),
+    ("despegue", "Piernas"),
+    ("si-si", "Piernas"),
+    ("costurera", "Piernas"),
+    ("pant", "Piernas"),             # Pantorrillera, Pant. Parado/Multif, Pantorrillas
+]
+
+# Orden de display (y desempate) cuando un día combina dos grupos.
+PRIORIDAD_ENFOQUE = ["Piernas", "Pecho", "Espalda", "Hombros", "Bíceps", "Tríceps"]
+
+
+def grupo_de(ejercicio):
+    """Devuelve el grupo muscular de un ejercicio, o None si no matchea."""
+    nombre = ejercicio.lower()
+    for kw, grupo in GRUPOS_KEYWORDS:
+        if kw in nombre:
+            return grupo
+    return None
+
+
+def clasificar_enfoque(bloques):
+    """Infiere el enfoque (grupo muscular) de un día a partir de sus ejercicios.
+
+    Cuenta los grupos sobre todos los ejercicios del día (incluidos los de cada
+    superserie), toma los 2 más frecuentes y los ordena por PRIORIDAD_ENFOQUE.
+    """
+    conteo = {}
+    for b in bloques:
+        ejercicios = b.get("ejercicios", [b]) if b.get("tipo") == "superserie" else [b]
+        for e in ejercicios:
+            g = grupo_de(e.get("ejercicio", ""))
+            if g:
+                conteo[g] = conteo.get(g, 0) + 1
+    if not conteo:
+        return ""
+    # Top 2 por conteo desc, desempate por prioridad.
+    top = sorted(conteo, key=lambda g: (-conteo[g], PRIORIDAD_ENFOQUE.index(g)))[:2]
+    top.sort(key=PRIORIDAD_ENFOQUE.index)
+    return " y ".join(top)
 
 
 def num_suffix(key):
@@ -167,8 +268,16 @@ def generar(rutina):
     rutinas = data["rutinas"]
     out_dir = os.path.join(ROOT, rutina["slug"])
     manual = set(rutina["manual"])
-    enfoque_map = rutina.get("enfoque") or {}
+    enfoque_cfg = rutina.get("enfoque") or {}
     os.makedirs(out_dir, exist_ok=True)
+
+    def enfoque_semana(dias):
+        """Mapa {num_dia: label} para una semana, según la config de enfoque."""
+        if enfoque_cfg == "auto":
+            return {dn: clasificar_enfoque(bloques) for dn, bloques in dias}
+        if isinstance(enfoque_cfg, dict) and enfoque_cfg:
+            return {dn: enfoque_cfg.get(dn, "") for dn, _ in dias}
+        return {}
 
     # Semanas presentes en el JSON, ordenadas: (num, [(num_dia, bloques), ...])
     json_semanas = []
@@ -196,15 +305,16 @@ def generar(rutina):
         prev_sem = todas[i - 1] if i > 0 else None
         next_sem = todas[i + 1] if i < len(todas) - 1 else None
 
+        week_enf = enfoque_semana(dias)
         with open(os.path.join(sem_dir, "README.md"), "w", encoding="utf-8") as f:
-            f.write(render_semana_index(rutina["titulo"], sn, dias, prev_sem, next_sem, enfoque_map))
+            f.write(render_semana_index(rutina["titulo"], sn, dias, prev_sem, next_sem, week_enf or None))
 
         dia_nums = [dn for dn, _ in dias]
         for j, (dn, bloques) in enumerate(dias):
             prev_dia = dia_nums[j - 1] if j > 0 else None
             next_dia = dia_nums[j + 1] if j < len(dia_nums) - 1 else None
             with open(os.path.join(sem_dir, f"dia-{dn}.md"), "w", encoding="utf-8") as f:
-                f.write(render_dia(sn, dn, bloques, prev_dia, next_dia, enfoque_map.get(dn)))
+                f.write(render_dia(sn, dn, bloques, prev_dia, next_dia, week_enf.get(dn)))
 
     # Índice de rutina: escanea el filesystem (manuales + generadas).
     semanas_con_dias = [

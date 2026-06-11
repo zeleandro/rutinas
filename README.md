@@ -5,6 +5,7 @@ Rutinas de gym en Markdown, para abrir desde el celular en el gym.
 ## Rutinas
 
 - [Rutina Gemini](rutina-gemini/README.md) — 10 semanas (1 PPL + 9 hipertrofia/superseries)
+- [Rutina Claude](rutina-claude/README.md) — 10 semanas (PPL + especialización, superseries)
 - [Rutina X-Men](rutina-x-men/README.md) — 31 semanas (del PDF IMG_0717)
 
 ---

@@ -1,0 +1,3475 @@
+{
+  "metadata": {
+    "fuente": "Generado en base a rutinas_normalizadas_v3.json",
+    "formato": "normalizado_v3",
+    "objetivo": "Hipertrofia muscular con bajo porcentaje de grasa corporal",
+    "duracion": "10 semanas / 6 días por semana",
+    "split": "Push-Pull-Legs con días de especialización y superseries",
+    "criterio": [
+      "Se respetó el estilo y formato del entrenador original.",
+      "Se usan las mismas abreviaturas y convenciones de nomenclatura.",
+      "Las superseries agrupan ejercicios antagónicos o del mismo grupo para mayor densidad metabólica.",
+      "La progresión de reps sigue patrones piramidales descendentes para hipertrofia.",
+      "El volumen aumenta gradualmente semana a semana.",
+      "Se incorporan triseries en semanas avanzadas siguiendo el patrón del entrenador.",
+      "Día 6 es día de especialización (rezagados o cardio metabólico) según fase."
+    ]
+  },
+  "rutinas": {
+    "semana_1": {
+      "dia_1": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Plano",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Incl. c/m.",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Apert. Plana",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Paralelas",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. p/tric.",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Curl Fr. c/m.",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo c/Barra prono",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dorian",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. Al Pecho",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo 1 brazo",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/Barra",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Scott",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sentadillas",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hack",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Prensa",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Camilla",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pantorrillera",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Costurera",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Milit.",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "V. Lat. 120º",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "V. Post.",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo al Ment.",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Encogim. c/m.",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Declinado",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Inclin.",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Cruce Pol.",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Ext. Tric. c/1 manc.",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hammer Tric.",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Peso Muerto c/m.",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Estocadas",
+          "series": 10,
+          "reps": [
+            4
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sillón",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Tijeras",
+          "series": 5,
+          "reps": "20 pasos"
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pant. Parado",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        }
+      ]
+    },
+    "semana_2": {
+      "dia_1": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Plano",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Incl. c/m.",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Apert. Inclin.",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Paralelas",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. p/tric.",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Curl Fr. EZ",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dorian",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo Caballo",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. Al Pecho prono",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dominadas",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/Barra",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hammer Bíc.",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sentadillas",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hack Asist.",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Prensa",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sillón",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pantorrillera",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Si-Si",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Milit. c/m.",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "V. Lat. 120º",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Vuelos Front. c/disco",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Delt. Post.",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Encogim. c/Barra",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Incl. c/b.",
+          "series": 4,
+          "reps": [
+            12,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Declinado",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Mariposa",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Ext. Tric. Pol.",
+          "series": 3,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Lagartijas",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Despegue",
+          "series": 4,
+          "reps": [
+            10,
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Estoc. Bulg.",
+          "series": 10,
+          "reps": [
+            4
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Camilla",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Tijeras",
+          "series": 5,
+          "reps": "20 pasos"
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pant. Multif.",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        }
+      ]
+    },
+    "semana_3": {
+      "dia_1": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Bco. Plano",
+              "reps": [
+                10,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Apert. Plana",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Press Incl. c/m.",
+              "reps": [
+                10,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Cruce Pol./Mariposa",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Bco. Declinado",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Lagartijas/Paralelas",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Curl Fr. EZ",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Ext. Tric. c/1 manc.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Pol. c/soga",
+              "reps": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Remo c/Barra prono",
+              "reps": [
+                10,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Pullovers",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Dorian",
+              "reps": [
+                10,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Pol. Al Pecho supino",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Remo Caballo neutro",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Pol. Al Pecho prono",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Bíc. c/Barra",
+              "reps": [
+                8,
+                10,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Bíc. Supin.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Bco. Scott",
+              "reps": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Sentadillas",
+              "reps": [
+                10,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Peso Muerto",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Hack",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Sillón",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Prensa Asist.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Camilla",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Pantorrillera",
+              "reps": [
+                15
+              ]
+            },
+            {
+              "ejercicio": "Costurera",
+              "reps": [
+                12
+              ]
+            },
+            {
+              "ejercicio": "Pant. Parado",
+              "reps": "Fallo"
+            }
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Press Milit.",
+              "reps": [
+                10,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Vuel. Lat. 120º",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Remo al Ment.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Vuelos Front. c/disco",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Vuel. Post.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Delt. Post.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Encogim. c/Barra",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Encogim. c/m.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Encogim. c/Pol.",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Bco. Inclin.",
+              "reps": [
+                10,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Apert. Inclin.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Press Declin.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Mariposa Declin.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Ext. Tric. Pol.",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Hammer Tric.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Estoc. Bulg.",
+              "reps": [
+                10,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Peso Muerto c/m.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Tijeras",
+              "reps": "20 pasos"
+            },
+            {
+              "ejercicio": "Sillón",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Pant. Parado",
+              "reps": [
+                15
+              ]
+            },
+            {
+              "ejercicio": "Si-Si",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "semana_4": {
+      "dia_1": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Bco. Plano",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Apert. Plana",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Press Incl. c/m.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Cruce Pol.",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Bco. Declinado",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Lagartijas",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Curl Fr. c/m. c/giro",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Ext. Tric. c/1 manc.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Pol. c/soga",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Remo c/Barra prono",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Pullovers",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Dorian",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Pol. Al Pecho prono",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Remo Caballo neutro",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Pol. Al Pecho supino",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Bíc. c/Barra",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Bíc. Supin.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Bco. Scott",
+              "reps": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Sentadillas",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Sillón",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Hack",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Prensa",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Estoc. Bulg.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Camilla",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Pantorrillera",
+              "reps": [
+                15
+              ]
+            },
+            {
+              "ejercicio": "Costurera",
+              "reps": [
+                12
+              ]
+            },
+            {
+              "ejercicio": "Pant. Parado",
+              "reps": "Fallo"
+            }
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Press Milit. c/m.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Vuel. Lat. 120º",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Remo al Ment.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Delt. Post.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Vuel. Post.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Vuelos Front. c/disco",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Encogim. c/Barra",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Encogim. c/m.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Encogim. c/Pol.",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Bco. Inclin.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Apert. Inclin.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Press Declin. c/m.",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Mariposa",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Ext. Tric. Pol.",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Hammer Tric.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Paralelas",
+              "reps": "Fallo"
+            }
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Despegue",
+              "reps": [
+                8,
+                10
+              ]
+            },
+            {
+              "ejercicio": "Estocadas",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Peso Muerto c/m.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Si-Si",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Tijeras",
+              "reps": "20 pasos"
+            },
+            {
+              "ejercicio": "Pant. Multif.",
+              "reps": [
+                15
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "semana_5": {
+      "dia_1": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Plano",
+          "reps": [
+            20,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Incl. c/m.",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Declinado",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Lagartijas",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. p/tric.",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Curl Fr. EZ",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo c/Barra prono",
+          "reps": [
+            20,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dorian",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. Al Pecho",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dominadas",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/Barra",
+          "reps": [
+            20,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. Supin.",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sentadillas",
+          "reps": [
+            20,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hack",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Prensa",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Camilla",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sillón",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pantorrillera",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Milit. c/m.",
+          "reps": [
+            20,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "V. Lat. 120º",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo al Ment.",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Delt. Post.",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Encogim. c/m.",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Inclin.",
+          "reps": [
+            20,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Apert. Inclin.",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Declin. c/m.",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Mariposa",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Ext. Tric. Pol.",
+          "series": 4,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hammer Tric.",
+          "series": 4,
+          "reps": [
+            6
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Despegue",
+          "series": 6,
+          "reps": [
+            6,
+            4
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Estoc. Bulg.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Tijeras",
+          "series": 5,
+          "reps": "20 pasos"
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Si-Si",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pant. Multif.",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        }
+      ]
+    },
+    "semana_6": {
+      "dia_1": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Plano",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Incl. c/m.",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Lagartijas",
+          "series": 5,
+          "reps": [
+            20
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. p/tric.",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Curl Fr. c/m. c/giro",
+          "series": 5,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo c/Barra prono",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dorian",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dominadas",
+          "series": 5,
+          "reps": [
+            20
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/Barra",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Scott",
+          "series": 5,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sentadillas",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hack",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Prensa",
+          "series": 5,
+          "reps": [
+            20
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Camilla",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Si-Si",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pantorrillas",
+          "series": 5,
+          "reps": [
+            20
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Milit.",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "V. Lat. 120º",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Delt. Post.",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "V. Post.",
+          "series": 5,
+          "reps": [
+            20
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Encogim. c/Barra",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Despegue",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Estoc. Bulg.",
+          "reps": [
+            10,
+            8,
+            8,
+            8,
+            6,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sillón",
+          "series": 5,
+          "reps": [
+            20
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Tijeras",
+          "series": 5,
+          "reps": "20 pasos"
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Peso Muerto c/m.",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo 1 br.",
+          "series": 7,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. Al Pecho",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/m. Bco. Incl.",
+          "series": 5,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hammer Bíc.",
+          "series": 5,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dominadas",
+          "series": 5,
+          "reps": [
+            5
+          ]
+        }
+      ]
+    },
+    "semana_7": {
+      "dia_1": [
+        {
+          "tipo": "superserie",
+          "series": 5,
+          "ejercicios": [
+            {
+              "ejercicio": "Bco. Plano",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Apert. Plana",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Press Incl. c/m.",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Cruce Pol.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Bco. Declinado",
+              "reps": [
+                6,
+                8
+              ]
+            },
+            {
+              "ejercicio": "Lagartijas/Paralelas",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Curl Fr. EZ",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Ext. Tric. c/1 manc.",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Pol. c/soga",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "superserie",
+          "series": 5,
+          "ejercicios": [
+            {
+              "ejercicio": "Remo c/Barra prono",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Pullovers",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Dorian",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Pol. Al Pecho prono",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Remo Caballo neutro",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Pol. Al Pecho supino",
+              "reps": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Bíc. c/Barra",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Bíc. Supin.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Bco. Scott",
+              "reps": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "superserie",
+          "series": 5,
+          "ejercicios": [
+            {
+              "ejercicio": "Sentadillas",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Peso Muerto",
+              "reps": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Hack",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Sillón",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Prensa",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Camilla",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 3,
+          "ejercicios": [
+            {
+              "ejercicio": "Pantorrillera",
+              "reps": [
+                15
+              ]
+            },
+            {
+              "ejercicio": "Costurera",
+              "reps": [
+                12
+              ]
+            },
+            {
+              "ejercicio": "Pant. Parado",
+              "reps": "Fallo"
+            }
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "superserie",
+          "series": 5,
+          "ejercicios": [
+            {
+              "ejercicio": "Press Milit. c/m.",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Vuel. Lat. 120º",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Remo al Ment.",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Delt. Post.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Vuel. Post.",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Vuelos Front. c/disco",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Encogim. c/Barra",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Encogim. c/m.",
+              "reps": [
+                10
+              ]
+            },
+            {
+              "ejercicio": "Encogim. c/Pol.",
+              "reps": [
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "superserie",
+          "series": 5,
+          "ejercicios": [
+            {
+              "ejercicio": "Bco. Inclin.",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Apert. Inclin.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Press Declin. c/m.",
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "ejercicio": "Mariposa",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Ext. Tric. Pol.",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Hammer Tric.",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Paralelas",
+              "reps": "Fallo"
+            }
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "superserie",
+          "series": 5,
+          "ejercicios": [
+            {
+              "ejercicio": "Despegue",
+              "reps": [
+                6,
+                5
+              ]
+            },
+            {
+              "ejercicio": "Estoc. Bulg.",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "superserie",
+          "series": 4,
+          "ejercicios": [
+            {
+              "ejercicio": "Peso Muerto c/m.",
+              "reps": [
+                8
+              ]
+            },
+            {
+              "ejercicio": "Si-Si",
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Tijeras",
+          "series": 5,
+          "reps": "20 pasos"
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pant. Multif.",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        }
+      ]
+    },
+    "semana_8": {
+      "dia_1": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Pl.",
+          "series": 7,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Lagartijas",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Incl. c/m.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Decl.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. p/tric.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Curl Fr. c/m.",
+          "series": 5,
+          "reps": [
+            6
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo c/b. Prono",
+          "series": 7,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo 1 br.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dorian",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dominadas",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/Barra",
+          "series": 7,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Scott",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sentadillas",
+          "series": 7,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hack Asist.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Prensa",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Camilla",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Si-Si",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pant. Multif.",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "V. Later.",
+          "series": 7,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Mil.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo al Ment.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Delt. Post.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Encogim. c/Barra",
+          "series": 5,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Pl.",
+          "series": 7,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Lagartijas",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Inclin.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Apert. Inclin.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Ext. Tric. Pol.",
+          "series": 5,
+          "reps": [
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hammer Tric.",
+          "series": 5,
+          "reps": [
+            6
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Tijeras",
+          "series": 7,
+          "reps": [
+            20
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sent. c/manc.",
+          "series": 3,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Estoc. Bulg.",
+          "series": 5,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Peso Muerto c/m.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pantorrillera",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        }
+      ]
+    },
+    "semana_9": {
+      "dia_1": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Plano",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Incl. c/m.",
+          "series": 5,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Lagartijas",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Apert. Plana",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Curl Fr. EZ",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. p/tric.",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dominadas",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo 1 brazo",
+          "series": 5,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dorian",
+          "series": 5,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. Al Pecho",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/Barra",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Scott",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sentadillas",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Prensa",
+          "series": 5,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hack",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Camilla",
+          "series": 5,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Si-Si",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pant. Multif.",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pantorrillas",
+          "series": 5,
+          "reps": [
+            20
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Milit. C/m.",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Milit. C/b. Mult.",
+          "series": 5,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "V. Lat. 120º",
+          "series": 5,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Delt. Post.",
+          "series": 5,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo al Ment.",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Encogim. c/Barra",
+          "series": 5,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Inclin.",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Decl.",
+          "series": 5,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Apert. Inclin.",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Mariposa",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Ext. Tric. Pol.",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hammer Tric.",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo c/b. Prono",
+          "reps": [
+            12,
+            10,
+            8,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo Cab.",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/m. Bco. Incl.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hammer Bíc.",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. Al Pecho supino",
+          "series": 5,
+          "reps": [
+            8
+          ]
+        }
+      ]
+    },
+    "semana_10": {
+      "dia_1": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Plano",
+          "series": 6,
+          "reps": "5x12 y 1"
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Incl.",
+          "series": 3,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Lagartijas",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Apert. Plana",
+          "series": 3,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Curl Fr. EZ",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. p/tric.",
+          "series": 3,
+          "reps": [
+            12
+          ]
+        }
+      ],
+      "dia_2": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo c/b.",
+          "reps": [
+            12,
+            12,
+            12,
+            10,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dorian",
+          "reps": [
+            12,
+            12,
+            10,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dominadas",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. Al Pecho",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/Barra",
+          "reps": [
+            12,
+            10,
+            8,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Scott",
+          "series": 3,
+          "reps": [
+            12
+          ]
+        }
+      ],
+      "dia_3": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sentadillas",
+          "reps": [
+            15,
+            10,
+            5,
+            2,
+            4,
+            6,
+            8,
+            10,
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Prensa",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Hack",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sillón",
+          "reps": [
+            10,
+            10,
+            20,
+            30
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Si-Si",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pantorrillas",
+          "series": 3,
+          "reps": [
+            25
+          ]
+        }
+      ],
+      "dia_4": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo Prono",
+          "reps": [
+            12,
+            10,
+            8,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo Cab.",
+          "series": 3,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Press Milit.",
+          "reps": [
+            12,
+            10,
+            8,
+            6
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "V. Lat. 120º",
+          "series": 3,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Delt. Post.",
+          "series": 3,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Encogim. c/Barra",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        }
+      ],
+      "dia_5": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Sent. Fr.",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Estoc. Bulg.",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Peso Muerto c/m.",
+          "series": 4,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Camilla",
+          "reps": [
+            10,
+            10,
+            20,
+            30
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Tijeras",
+          "series": 5,
+          "reps": "20 pasos"
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pant. Multif.",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        }
+      ],
+      "dia_6": [
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Plano",
+          "series": 6,
+          "reps": "5x12 y 1"
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bco. Incl.",
+          "series": 3,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Dominadas",
+          "series": 4,
+          "reps": [
+            15
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Remo 1 brazo",
+          "series": 4,
+          "reps": [
+            12
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Bíc. c/Barra",
+          "series": 5,
+          "reps": [
+            10
+          ]
+        },
+        {
+          "tipo": "ejercicio",
+          "ejercicio": "Pol. p/tric.",
+          "series": 5,
+          "reps": [
+            10
+          ]
+        }
+      ]
+    }
+  }
+}
